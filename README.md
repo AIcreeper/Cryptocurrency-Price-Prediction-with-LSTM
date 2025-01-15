@@ -1,25 +1,26 @@
-# Multi-Modal Voice Transformation Tool
+# Cryptocurrency Price Prediction with LSTM
 
 ## Overview
-The **Multi-Modal Voice Transformation Tool** is a versatile application that supports seamless text-to-voice, voice-to-text, and voice-to-voice conversion. This tool utilizes advanced speech processing technology to transform content between various voice formats, enabling enhanced user interaction and communication.
+This project utilizes an LSTM (Long Short-Term Memory) neural network to predict cryptocurrency coin prices. The script fetches the last 120 days of price data from Binance for a given coin pair and uses this data to train the LSTM model. The trained model can then predict the price for the next 1 hour, 3 hours, 12 hours, 1 day, 3 days, and 7 days.
 
 ## Features
-- **Text-to-Voice**: Converts written text into natural-sounding speech.
-- **Voice-to-Text**: Transcribes spoken words into text for further processing.
-- **Voice-to-Voice**: Transforms one voice input into another, making communication easier and more dynamic.
+- **Coin Pair Input**: The user inputs the desired coin pair (e.g., BTC/USDT, ETH/BTC).
+- **Data Fetching**: Fetches the last 120 days of price data from Binance.
+- **Price Prediction**: Predicts the price for the next 1 hour, 3 hours, 12 hours, 1 day, 3 days, and 7 days using LSTM.
+- **LSTM Model Training**: The model is trained using the fetched data to forecast future prices.
 
 ## Technologies Used
-- Advanced **Speech Recognition** algorithms
-- **Text-to-Speech (TTS)** technology
-- **Voice Transformation** models
+- **Python 3.x**
+- **TensorFlow/Keras** for building and training the LSTM model
+- **Binance API** for fetching historical price data
+- **Pandas** for data manipulation
+- **NumPy** for numerical operations
+- **Matplotlib** for data visualization
 
 ## Installation
 
 ### Requirements
 - Python 3.8+
-- Necessary libraries (listed in `requirements.txt`)
-
-### Steps to Install:
-1. Clone the repository:
+- Install the required dependencies by running the following command:
    ```bash
-   git clone https://github.com/yourusername/projectname.git
+   pip install -r requirements.txt
