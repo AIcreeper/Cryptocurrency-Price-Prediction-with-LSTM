@@ -1,0 +1,12 @@
+ccxt==4.4.44
+scikit-learn==1.6.0
+pandas==2.2.3
+ta==0.11.0
+python-binance==1.0.27
+# ta-lib==0.5.2
+matplotlib==3.10.0
+python-dotenv==1.0.1
+tensorflow==2.18.0
+torch 
+torchvision 
+torchaudio

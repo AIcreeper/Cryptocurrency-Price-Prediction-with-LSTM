@@ -1,0 +1,4 @@
+.env
+prediction_bot_lstm.log
+trading_bot.log
+prediction_bot.logprediction_bot.log
